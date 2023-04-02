@@ -13,7 +13,7 @@ spec:
         app: phpapp
     spec:
       containers:
-      - image: rajendar38/myhtmlapp:latest
+      - image:  rajendar38/hello-world:latest
         name: php
         ports:
         - containerPort: 80
