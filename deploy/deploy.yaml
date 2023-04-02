@@ -13,7 +13,7 @@ spec:
         app: phpapp
     spec:
       containers:
-      - image:  tutum/hello-world:latest
+      - image:  mysampleapp:latest
         name: php
         ports:
         - containerPort: 80
